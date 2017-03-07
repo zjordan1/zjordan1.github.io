@@ -23,6 +23,8 @@
                 margin: 0 auto;
                 display: flex;
                 padding: 10px;
+                padding-bottom: 10px;
+                border-radius: 10px;
             }
             nav header {
                 display: flex;
@@ -46,6 +48,10 @@
             main {
                 background: rgb(245, 238, 219);
                 display: flex;
+                border-radius: 10px;
+            }
+            [id=main-content] {
+                padding: 10px;
             }
             [class=sidebar] {
                 margin-right: 25px;
@@ -73,10 +79,10 @@
                     <li><a href="portfolio.html">Portfolio</a></li>
                 </ul>
             </nav>
-                
+            <div id="main-content">
             <main>
                 <div class="sidebar">
-                    <img src="http://biografieonline.it/img/bio/Richard_Stallman.jpg">
+                    <img src="/me.jpg">
                 </div>
                 
                 <div class="content">
@@ -92,7 +98,7 @@
                     </section>
                 </div>
             </main>
+            </div>
         </div>
-        
     </body>
 </html>
